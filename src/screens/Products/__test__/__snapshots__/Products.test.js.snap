@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#f1f1f1",
+        "flex": 1,
+      }
+    }
+  >
+    <LinearGradient
+      angle={45}
+      colors={
+        Array [
+          "#21094E",
+          "#511281",
+          "#7952B3",
+        ]
+      }
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "height": 44,
+          "justifyContent": "center",
+          "paddingTop": null,
+          "width": 750,
+        }
+      }
+      useAngle={true}
+    >
+      <Text
+        style={
+          Object {
+            "color": "#fff",
+            "fontSize": 20,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Clothing
+      </Text>
+    </LinearGradient>
+    <ActivityIndicator
+      color="#21094E"
+      style={
+        Object {
+          "marginTop": "30%",
+        }
+      }
+    />
+  </View>
+</RNCSafeAreaProvider>
+`;
